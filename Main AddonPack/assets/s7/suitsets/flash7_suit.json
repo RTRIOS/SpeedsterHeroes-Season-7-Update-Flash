@@ -1,0 +1,112 @@
+{
+	"name": {
+		"text": "The Flash's Suit"
+	},
+
+	"armor_material": {
+		"durability": 30,
+		"damage_reduction_amounts": [11, 16, 14, 10],
+		"enchantibility": 20,
+		"toughness": 24.0,
+		"sound": "item.armor.equip_generic"
+	},
+
+	"creative_tab": "s7",
+
+	"data": {
+		"trail": {
+			"red": 1,
+			"green": 0.2,
+			"blue": 0
+		},
+		"flicker": {
+			"red": 1,
+			"green": 0.2,
+			"blue": 0
+		},
+		"speed_levels": 26
+	},
+
+	"description": {
+		"text": "The Flash (Season 6/7) (CW)"
+	},
+
+	"abilities": [{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "lucraftcore:healing",
+			"frequency": 10,
+			"amount": 10
+		},
+		{
+			"ability": "speedsterheroes:suit_ring"
+		}
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": true,
+			"glow": false,
+			"armor_model_scale": 0.5,
+			"name": {
+				"text": "Flash's Mask"
+			},
+			"textures": {
+				"normal": "s7:textures/models/armor/flash7/helmet.png",
+				"normal_open": "s7:textures/models/armor/flash7/helmet_open.png"
+			},
+			"item_texture": {
+				"blockstate": "s7:flash7_suit"
+			}
+
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Flash's Chestpiece"
+			},
+			"textures": {
+				"normal": "s7:textures/models/armor/flash7/chestplate.png",
+				"normal_smallarms": "s7:textures/models/armor/flash7/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "s7:flash7_suit"
+			}
+		},
+
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.25,
+			"name": {
+				"text": "Flash's Pants"
+			},
+			"textures": {
+				"normal": "s7:textures/models/armor/flash7/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "s7:flash7_suit"
+			}
+		},
+
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"armor_model_scale": 0.252,
+			"name": {
+				"text": "Flash's Boots"
+			},
+			"textures": {
+				"normal": "s7:textures/models/armor/flash7/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "s7:flash7_suit"
+			}
+		}
+	}
+}
