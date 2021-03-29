@@ -1,0 +1,37 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "builtin/generated",
+		"textures": {
+			"layer0": "blocks/dirt"
+		},
+
+		"transform": "forge:default-item"
+	},
+
+	"variants": {
+		"head": [{
+			"textures": {
+				"layer0": "s7:items/kidf6/helmet"
+			}
+		}],
+		
+		"chest": [{
+			"textures": {
+				"layer0": "s7:items/kidf6/chestplate"
+			}
+		}],
+
+		"legs": [{
+			"textures": {
+				"layer0": "s7:items/kidf6/legs"
+			}
+		}],
+
+		"feet": [{
+			"textures": {
+				"layer0": "s7:items/kidf6/boots"
+			}
+		}]
+	}
+}

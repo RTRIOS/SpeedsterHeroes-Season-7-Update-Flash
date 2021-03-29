@@ -1,0 +1,24 @@
+{
+    "input": {
+        "item": "minecraft:nether_star"
+    },
+
+    "input_container": {
+        "item": "lucraftcore:injection"
+    },
+    
+    "input_fluid": {
+        "fluid": "uranium",
+        "amount": 3000
+    },
+    
+    "energy": 100000,
+    
+    "outputs": {
+        "primary": {
+            "item": "lucraftcore:injection",
+            "nbt": "{\"Injection\": \"maxheroes:darkmatter\"}",
+            "chance": 0.9
+        }
+    }
+}

@@ -1,0 +1,136 @@
+{
+	"name" : {
+		"text": "Artifical Speed Force"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "s7:textures/icons/asf.png"
+	},
+	
+	"max_level": 30,
+	
+	"capsule_color" : 16746752,
+	
+	"effects": [
+		{
+			"type": "trail",
+			"trail_type": "lightnings",
+			"color": [1, 0.2, 0],
+			"use_suit_trails": true,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "speedsterheroes:super_speed"
+				},
+				{
+					"type": "moving"
+				},
+				{
+					"type": "no_suit_trail"
+				}
+			]
+		},
+		{
+			"type": "flickering",
+			"color": [1, 0.2, 0],
+			"use_suit_flicker": true,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "speedsterheroes:super_speed"
+				},
+				{
+					"type": "moving"
+				},
+				{
+					"type": "no_suit_trail"
+				}
+			]
+		},
+		
+		{
+			"type": "vibrating",
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "speedsterheroes:phasing"
+				}
+			]
+		}
+	],
+	
+	"abilities": [
+		{
+			"ability": "speedsterheroes:super_speed",
+			"base_speed_levels": 14,
+			"gives_xp" : true
+		},
+		{
+			"ability": "speedsterheroes:change_speed",
+			"accelerate" : false
+		},
+		{
+			"ability": "speedsterheroes:change_speed",
+			"accelerate" : true
+		},
+		{
+			"ability": "speedsterheroes:decelerate"
+		},
+		{
+			"ability": "lucraftcore:healing",
+			"frequency": 20,
+			"amount": 0.5,
+			"required_level": 3
+		},
+		{
+			"ability": "speedsterheroes:wall_running",
+			"speed": 40,
+			"required_level": 6
+		},
+		{
+			"ability": "speedsterheroes:arm_vortex",
+			"cooldown": 300,
+			"distance": 7,
+			"required_level": 9
+		},
+		{
+			"ability": "speedsterheroes:water_running",
+			"speed": 30,
+			"required_level": 12
+		},
+		{
+			"ability": "speedsterheroes:phasing",
+			"cooldown": 300,
+			"required_level": 18
+		},
+		{
+			"ability": "speedsterheroes:lightning_throw",
+			"speed": 50,
+			"cooldown": 300,
+			"required_level": 21
+		},
+		{
+			"ability": "speedsterheroes:dimension_breach",
+			"cooldown": 300,
+			"required_level": 24
+		},
+		{
+			"ability": "speedsterheroes:time_remnant",
+			"cooldown": 400,
+			"required_level": 27
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"factor": 5,
+			"operation": 0,
+			"uuid": "ff38d1b5-fd0c-4063-ae71-0838291e118e"
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"factor": 2,
+			"operation": 0,
+			"uuid": "ff38d1b5-fd0c-4063-ae71-0838291e118e"
+		}
+	]
+}
