@@ -1,4 +1,8 @@
 # SpeedsterHeroes-Season-7-Update-Flash
+THIS IS A MINECRAFT ADDONPACK FOR LUCRAFT'S MINECRAFT SPEEDSTERS MOD
+
+Make Sure that before you download this you have Lucraft's Speedster Heroes Mod downloaded and installed
+
 This is a season 7 update for speedster heroes mod by Lucraft. This is for season 7 and before
 
 This is a season 7 update for speedster heroes mod by Lucraft. This is for season 7 and before
