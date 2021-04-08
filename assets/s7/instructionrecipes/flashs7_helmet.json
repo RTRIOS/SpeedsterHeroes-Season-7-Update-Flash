@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "s7:flash7_suit_head"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_yellow",
+			"amount": 3
+		},
+		{
+			"item": "lucraftcore:tri_polymer_red",
+			"amount": 3
+		}
+	]
+
+}
