@@ -1,7 +1,6 @@
 # SpeedsterHeroes-Season-7-Update-Flash
 THIS IS A MINECRAFT ADDONPACK FOR LUCRAFT'S MINECRAFT SPEEDSTERS MOD
 Minecraft Version = 1.12.2
-You can look at how the suit looks like in the "suit looks" directory
 
 Make Sure that before you download this you have Lucraft's Speedster Heroes Mod downloaded and installed
 
